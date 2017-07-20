@@ -44,9 +44,6 @@
     <Compile Include="VersionedChecksummedBytes.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ExternalDLLs\BouncyCastle.Crypto.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="BouncyCastle.Crypto, Version=1.8.1.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\packages\BouncyCastle.1.8.1\lib\BouncyCastle.Crypto.dll</HintPath>
